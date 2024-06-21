@@ -28,6 +28,7 @@ print(type((rueckgabewert())))
 # nach "return" folgende Wert wird daraufhin zurückgegeben.
 # In dieser Funktion möchte ich 2 Zahlen übergeben. Dann soll Sie mir das Maximum ermitteln. Also die Zahl die größer
 # ist, soll Sie mir in der Konsole zurückgeben.
+# Beispiel
 def maximum(a, b):
     if a < b:
         return b

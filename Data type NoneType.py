@@ -20,7 +20,7 @@ def rueckgabewert():
 # Der Datentyp dieses Rückgabewertes der Funktion heißt NoneType. Konsole: None
 # Wann wird None verwendet? Wenn man aktuell keinen sinvollen anderen Wert hat, den man benutzen kann.
 # Der Wert "None" steht für die Abwesenheit eines Wertes.
-print(type((rueckgabewert())))
+print(rueckgabewert())  # Konsole: Der Wert heißt hier None.
 
 
 # Wenn ich mir bewusst einen Wert zurückgeben lassen möchte, verwendet man einen Schlüsselwort namens "return".

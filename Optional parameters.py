@@ -34,3 +34,14 @@ greeting("Max", "Mustermann", "Dr.")
 # auch möglich. Sie müssen also in der Funktionsdefinition nach den positionsbezogenen Parametern stehen.
 # Denn nur so ist gewährleistet, dass die positionsbezogenen Parametern, also die die man auch zwingend mit übergeben
 # muss, noch eindeutig zugewiesen werden können.
+
+
+# Eine Funktion, die 3 Zahlen entgegennimmt und diese dann miteinander multipliziert.
+# Hier werden nur die ersten zwei Parameter miteinander multipliziert. Der dritte Parameter aber nicht, da er die Zahl
+# 1 beträgt.
+def multiply(number1, number2, number3=1):
+    return number1 * number2 * number3
+
+
+print(multiply(3, 2))
+

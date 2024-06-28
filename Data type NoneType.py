@@ -25,9 +25,9 @@ print(rueckgabewert())  # Konsole: Der Wert heißt hier None.
 
 # Wenn ich mir bewusst einen Wert zurückgeben lassen möchte, verwendet man einen Schlüsselwort namens "return".
 # Sobald dieses return innerhalb einer Funktion aufgerufen wird, wird die Funktion sofort beendet und der entsprechend
-# nach "return" folgende Wert wird daraufhin zurückgegeben.
-# In dieser Funktion möchte ich 2 Zahlen übergeben. Dann soll Sie mir das Maximum ermitteln. Also die Zahl die größer
-# ist, soll Sie mir in der Konsole zurückgeben.
+# nach "return" folgende Wert wird daraufhin zurückgegeben. Also der Wert in return wird an den Aufrufer der Funktion
+# returned. In dieser Funktion möchte ich 2 Zahlen übergeben. Dann soll Sie mir das Maximum ermitteln. Also die Zahl die
+# größer ist, soll Sie mir in der Konsole zurückgeben.
 # Beispiel
 def maximum(a, b):
     if a < b:
